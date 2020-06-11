@@ -13678,9 +13678,9 @@ module.exports = /*#__PURE__*/function (_BaseClient) {
 
 /***/ }),
 
-/***/ "./node_modules/webpack-dev-server/client/index.js?http://localhost:8080":
+/***/ "./node_modules/webpack-dev-server/client/index.js?http://localhost:8083":
 /*!*********************************************************!*\
-  !*** (webpack)-dev-server/client?http://localhost:8080 ***!
+  !*** (webpack)-dev-server/client?http://localhost:8083 ***!
   \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13862,7 +13862,7 @@ var onSocketMessage = {
   }
 };
 socket(socketUrl, onSocketMessage);
-/* WEBPACK VAR INJECTION */}.call(this, "?http://localhost:8080"))
+/* WEBPACK VAR INJECTION */}.call(this, "?http://localhost:8083"))
 
 /***/ }),
 
@@ -14718,12 +14718,12 @@ Object(systemjs_webpack_interop__WEBPACK_IMPORTED_MODULE_0__["setPublicPath"])("
 
 /***/ 0:
 /*!*********************************************************************************!*\
-  !*** multi (webpack)-dev-server/client?http://localhost:8080 ./src/i6-test2.js ***!
+  !*** multi (webpack)-dev-server/client?http://localhost:8083 ./src/i6-test2.js ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/tom.moore/dev/examples/test2/node_modules/webpack-dev-server/client/index.js?http://localhost:8080 */"./node_modules/webpack-dev-server/client/index.js?http://localhost:8080");
+__webpack_require__(/*! /Users/tom.moore/dev/examples/test2/node_modules/webpack-dev-server/client/index.js?http://localhost:8083 */"./node_modules/webpack-dev-server/client/index.js?http://localhost:8083");
 module.exports = __webpack_require__(/*! /Users/tom.moore/dev/examples/test2/src/i6-test2.js */"./src/i6-test2.js");
 
 

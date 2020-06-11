@@ -9,6 +9,11 @@ module.exports = (webpackConfigEnv) => {
   });
 
   return webpackMerge.smart(defaultConfig, {
+    devServer: {
+      headers: {
+        "Access-Control-Allow-Origin": "http://localhost:3000",
+      },
+    },
     // modify the webpack config however you'd like to by adding to this object
   });
 };
